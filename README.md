@@ -40,3 +40,17 @@ token = <personal-access-token>
 ```
 
 - If you prompted the wrong token in the configuration setup, you can change it directly from the .config file
+
+# RUN
+
+- execute python inside the project folder, then
+
+```python
+from job_tag_script import main
+
+# if you want to modify only one job
+main(test=True)
+
+# if you want to modify all the jobs
+main(test=False)
+```
