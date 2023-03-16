@@ -48,7 +48,7 @@ execute python inside the project folder, then prompt:
 ```python
 from job_tag_script import main
 
-# if you want to modify only one job
+# if you want to modify only one job  
 main(test=True)
 
 # if you want to modify all the jobs
