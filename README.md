@@ -43,7 +43,7 @@ token = <personal-access-token>
 
 # RUN
 
-- execute python inside the project folder, then
+execute python inside the project folder, then prompt:
 
 ```python
 from job_tag_script import main
