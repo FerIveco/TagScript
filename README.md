@@ -24,7 +24,7 @@ pip install databricks-cli --upgrade
 databricks configure --token
 ```
 
-- Enter your workspace URL, with the format **https://<instance-name>.cloud.databricks.com**. To get your workspace URL, see Workspace instance names, URLs, and IDs.<br>
+- Enter your workspace URL, with the format https://**<instance-name>**.cloud.databricks.com. To get your workspace URL, see Workspace instance names, URLs, and IDs.<br>
 **N.B.** when prompting the access token, characters will not appear, be sure to paste the token only one time
 
 - After you complete the prompts, your access credentials are stored in the file **~/.databrickscfg** on Unix, Linux, or macOS, or **%USERPROFILE%\.databrickscfg** on Windows. The file contains a default profile entry:
